@@ -328,48 +328,7 @@ public class Contents_by_business_user{
 		public void Deleting_Tutorials_Contents_by_Business_User() throws InterruptedException{
 			//Click on 'Delete' button
 			action_obj.editdelete().click();
-			Thread.sleep(500);
-			
-		}		
-	
-
-		@Test(priority=13)
-		public void Posting_Coupons_Contents_by_Business_User() throws Exception{
-			
-			Thread.sleep(3000);
-			//Entering data in status section
-			action_obj.usercontentstatus().clear();
-			Thread.sleep(500);
-			action_obj.usercontentstatus().sendKeys("Classic Shortbread(Only For test purpose)");
-			Thread.sleep(700);
-			//Click on Coupons icon
-			action_obj.couponsbutton().click();
-			Thread.sleep(1000);
-			//Assertion Coupon pop-up
-			Assertion_obj.coupons();
-			Thread.sleep(500);
-			//Coupon name
-			action_obj.couponsname().sendKeys("Classic Shortbread(Only For test purpose)");
-			Thread.sleep(500);
-			//Select Coupon type
-			Select type = new Select(driver.findElement(By.xpath("(//*[@class='form-group'])[2]/select")));
-			Thread.sleep(500);
-			type.selectByVisibleText("Meal");
-			//Coupon Description
-			action_obj.recipesdescription().sendKeys("Coupons Description!!");
-			 Thread.sleep(3000);
-
-			  //Uploading Photo
-			    ((RemoteWebDriver) driver).setFileDetector(new LocalFileDetector());
-				Thread.sleep(2000);
-				driver.findElement(By.xpath(".//*[@class='file-upload']/input")).sendKeys("C:\\Users\\hello\\Documents\\images\\wallpaper2.jpg");	
-				Thread.sleep(2000);
-			//Click on Submit button
-			action_obj.submitcoupons().click();
-			Thread.sleep(300);
-			//Assertion
-			Assertion_obj.coupons2();
-			Thread.sleep(3000);
+			Thread.sleep(1500);
 			driver.quit();
-		}
+		}		
 }
