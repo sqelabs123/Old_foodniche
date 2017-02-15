@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]">
+  <parameter name="password" value="123456789"/>
+  <parameter name="AUTOMATE_KEY" value="VHUY3Ttk2yQ39MKwkyQF"/>
+  <parameter name="USERNAME" value="vikram158"/>
+  <parameter name="userId" value="asian.recipes@foodniche.me"/>
+  <parameter name="url" value="https://foodniche.me/"/>
+  <test name="Test(failed)">
+    <parameter name="password" value="123456789"/>
+    <parameter name="AUTOMATE_KEY" value="VHUY3Ttk2yQ39MKwkyQF"/>
+    <parameter name="USERNAME" value="vikram158"/>
+    <parameter name="userId" value="asian.recipes@foodniche.me"/>
+    <parameter name="url" value="https://foodniche.me/"/>
+    <classes>
+      <class name="foodniche_project.Signup_business_user">
+        <methods>
+          <include name="SignUpForm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- foodniche_project.Signup_business_user -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite2] -->
