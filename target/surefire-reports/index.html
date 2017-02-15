@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-failed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>E:\chandan1\FoodnicheProject\SimpleUser.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 1 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Signupuser" hash-for-method="SignUpForm">SignUpForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Deleting_Pictures_Contents_by_Individual_User">Deleting_Pictures_Contents_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Deleting_Recipe_Contents_by_Individual_User">Deleting_Recipe_Contents_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Deleting_Tutorials_Contents_by_Individual_User">Deleting_Tutorials_Contents_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Deleting_Video_Contents_by_Individual_User">Deleting_Video_Contents_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Editing_Pictures_by_Individual_User">Editing_Pictures_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Editing_Recipe_by_Individual_User">Editing_Recipe_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Editing_Tutorials_by_Individual_User">Editing_Tutorials_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Editing_Video_by_Individual_User">Editing_Video_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Signin_and_forgot_password" hash-for-method="Facebook_Signin">Facebook_Signin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Signin_and_forgot_password" hash-for-method="Logout">Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Posting_Pictures_Contents_by_Individual_User">Posting_Pictures_Contents_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Posting_Recipe_by_Individual_User">Posting_Recipe_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Posting_Tutorials_by_Individual_User">Posting_Tutorials_by_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Contents_by_individual_user" hash-for-method="Posting_Video_By_Individual_User">Posting_Video_By_Individual_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="foodniche_project.Signin_and_forgot_password" hash-for-method="Restoring_password">Restoring_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite2">
+              <span class="suite-name border-failed">Suite2</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite2">
+                    <span>E:\chandan1\FoodnicheProject\BusinessUser.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite2">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite2">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite2">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite2">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite2">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite2">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 3 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite2" class="hide-methods failed suite-Suite2"> (hide)</a> <!-- hide-methods failed suite-Suite2 -->
+                      <a href="#" panel-name="suite-Suite2" class="show-methods failed suite-Suite2"> (show)</a> <!-- show-methods failed suite-Suite2 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite2">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Posting_Coupons_Contents_by_Business_User">Posting_Coupons_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Groups_by_business" hash-for-method="Posting_Picture_by_Business_User">Posting_Picture_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Signup_business_user" hash-for-method="SignUpForm">SignUpForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite2 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite2" class="hide-methods passed suite-Suite2"> (hide)</a> <!-- hide-methods passed suite-Suite2 -->
+                      <a href="#" panel-name="suite-Suite2" class="show-methods passed suite-Suite2"> (show)</a> <!-- show-methods passed suite-Suite2 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite2">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Deleting_Pictures_Contents_by_Business_User">Deleting_Pictures_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Deleting_Recipe_Contents_Contents_by_Business_User">Deleting_Recipe_Contents_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Deleting_Tutorials_Contents_by_Business_User">Deleting_Tutorials_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Deleting_Video_Contents_by_Business_User">Deleting_Video_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Editing_Pictures_Contents_by_Business_User">Editing_Pictures_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Editing_Recipe_Contents_by_Business_User">Editing_Recipe_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Editing_Tutorials_Contents_by_Business_User">Editing_Tutorials_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Editing_Video_Contents_by_Business_User">Editing_Video_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Posting_Pictures_Contents_by_Business_User">Posting_Pictures_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Posting_Recipe_Contents_by_Business_User">Posting_Recipe_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Posting_Tutorials_Contents_by_Business_User">Posting_Tutorials_Contents_by_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="foodniche_project.Contents_by_business_user" hash-for-method="Posting_Video_Contents_By_Business_User">Posting_Video_Contents_By_Business_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite2 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">foodniche_project.Signupuser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpForm">
+                  </a> <!-- SignUpForm -->
+                  <span class="method-name">SignUpForm</span>
+                  <div class="stack-trace"><b>"java.lang.NullPointerException
+	at foodniche_project.Signupuser.SignUpForm(Signupuser.java:57)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 21 stack frames<br/> java.lang.NullPointerException
+	at foodniche_project.Signupuser.SignUpForm(Signupuser.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+"</b><br>foodniche_project.Signupuser.SignUpForm(Signupuser.java:57)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:497)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">foodniche_project.Signin_and_forgot_password</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Facebook_Signin">
+                  </a> <!-- Facebook_Signin -->
+                  <span class="method-name">Facebook_Signin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout">
+                  </a> <!-- Logout -->
+                  <span class="method-name">Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Restoring_password">
+                  </a> <!-- Restoring_password -->
+                  <span class="method-name">Restoring_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">foodniche_project.Contents_by_individual_user</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deleting_Pictures_Contents_by_Individual_User">
+                  </a> <!-- Deleting_Pictures_Contents_by_Individual_User -->
+                  <span class="method-name">Deleting_Pictures_Contents_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deleting_Recipe_Contents_by_Individual_User">
+                  </a> <!-- Deleting_Recipe_Contents_by_Individual_User -->
+                  <span class="method-name">Deleting_Recipe_Contents_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deleting_Tutorials_Contents_by_Individual_User">
+                  </a> <!-- Deleting_Tutorials_Contents_by_Individual_User -->
+                  <span class="method-name">Deleting_Tutorials_Contents_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deleting_Video_Contents_by_Individual_User">
+                  </a> <!-- Deleting_Video_Contents_by_Individual_User -->
+                  <span class="method-name">Deleting_Video_Contents_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editing_Pictures_by_Individual_User">
+                  </a> <!-- Editing_Pictures_by_Individual_User -->
+                  <span class="method-name">Editing_Pictures_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editing_Recipe_by_Individual_User">
+                  </a> <!-- Editing_Recipe_by_Individual_User -->
+                  <span class="method-name">Editing_Recipe_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editing_Tutorials_by_Individual_User">
+                  </a> <!-- Editing_Tutorials_by_Individual_User -->
+                  <span class="method-name">Editing_Tutorials_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editing_Video_by_Individual_User">
+                  </a> <!-- Editing_Video_by_Individual_User -->
+                  <span class="method-name">Editing_Video_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Pictures_Contents_by_Individual_User">
+                  </a> <!-- Posting_Pictures_Contents_by_Individual_User -->
+                  <span class="method-name">Posting_Pictures_Contents_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Recipe_by_Individual_User">
+                  </a> <!-- Posting_Recipe_by_Individual_User -->
+                  <span class="method-name">Posting_Recipe_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Tutorials_by_Individual_User">
+                  </a> <!-- Posting_Tutorials_by_Individual_User -->
+                  <span class="method-name">Posting_Tutorials_by_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Video_By_Individual_User">
+                  </a> <!-- Posting_Video_By_Individual_User -->
+                  <span class="method-name">Posting_Video_By_Individual_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="suite-Suite2" class="panel Suite2">
+          <div class="suite-Suite2-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">foodniche_project.Contents_by_business_user</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Coupons_Contents_by_Business_User">
+                  </a> <!-- Posting_Coupons_Contents_by_Business_User -->
+                  <span class="method-name">Posting_Coupons_Contents_by_Business_User</span>
+                  <div class="stack-trace"><b>"java.lang.NullPointerException
+	at foodniche_project.Contents_by_business_user.Posting_Coupons_Contents_by_Business_User(Contents_by_business_user.java:345)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 21 stack frames<br/> java.lang.NullPointerException
+	at foodniche_project.Contents_by_business_user.Posting_Coupons_Contents_by_Business_User(Contents_by_business_user.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+"</b><br>foodniche_project.Contents_by_business_user.Posting_Coupons_Contents_by_Business_User(Contents_by_business_user.java:345)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:497)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite2-class-failed -->
+          <div class="suite-Suite2-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">foodniche_project.Groups_by_business</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Picture_by_Business_User">
+                  </a> <!-- Posting_Picture_by_Business_User -->
+                  <span class="method-name">Posting_Picture_by_Business_User</span>
+                  <div class="stack-trace"><b>"java.lang.NullPointerException
+	at Reusable.Assertion_Test.groupassert(Assertion_Test.java:435)
+	at foodniche_project.Groups_by_business.Posting_Picture_by_Business_User(Groups_by_business.java:123)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 21 stack frames<br/> java.lang.NullPointerException
+	at Reusable.Assertion_Test.groupassert(Assertion_Test.java:435)
+	at foodniche_project.Groups_by_business.Posting_Picture_by_Business_User(Groups_by_business.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+"</b><br>Reusable.Assertion_Test.groupassert(Assertion_Test.java:435)<br>foodniche_project.Groups_by_business.Posting_Picture_by_Business_User(Groups_by_business.java:123)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:497)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite2-class-failed -->
+          <div class="suite-Suite2-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">foodniche_project.Signup_business_user</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpForm">
+                  </a> <!-- SignUpForm -->
+                  <span class="method-name">SignUpForm</span>
+                  <div class="stack-trace"><b>"java.lang.NullPointerException
+	at foodniche_project.Signup_business_user.SignUpForm(Signup_business_user.java:56)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 21 stack frames<br/> java.lang.NullPointerException
+	at foodniche_project.Signup_business_user.SignUpForm(Signup_business_user.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+"</b><br>foodniche_project.Signup_business_user.SignUpForm(Signup_business_user.java:56)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:497)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite2-class-failed -->
+          <div class="suite-Suite2-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">foodniche_project.Contents_by_business_user</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deleting_Pictures_Contents_by_Business_User">
+                  </a> <!-- Deleting_Pictures_Contents_by_Business_User -->
+                  <span class="method-name">Deleting_Pictures_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deleting_Recipe_Contents_Contents_by_Business_User">
+                  </a> <!-- Deleting_Recipe_Contents_Contents_by_Business_User -->
+                  <span class="method-name">Deleting_Recipe_Contents_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deleting_Tutorials_Contents_by_Business_User">
+                  </a> <!-- Deleting_Tutorials_Contents_by_Business_User -->
+                  <span class="method-name">Deleting_Tutorials_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deleting_Video_Contents_by_Business_User">
+                  </a> <!-- Deleting_Video_Contents_by_Business_User -->
+                  <span class="method-name">Deleting_Video_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editing_Pictures_Contents_by_Business_User">
+                  </a> <!-- Editing_Pictures_Contents_by_Business_User -->
+                  <span class="method-name">Editing_Pictures_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editing_Recipe_Contents_by_Business_User">
+                  </a> <!-- Editing_Recipe_Contents_by_Business_User -->
+                  <span class="method-name">Editing_Recipe_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editing_Tutorials_Contents_by_Business_User">
+                  </a> <!-- Editing_Tutorials_Contents_by_Business_User -->
+                  <span class="method-name">Editing_Tutorials_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editing_Video_Contents_by_Business_User">
+                  </a> <!-- Editing_Video_Contents_by_Business_User -->
+                  <span class="method-name">Editing_Video_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Pictures_Contents_by_Business_User">
+                  </a> <!-- Posting_Pictures_Contents_by_Business_User -->
+                  <span class="method-name">Posting_Pictures_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Recipe_Contents_by_Business_User">
+                  </a> <!-- Posting_Recipe_Contents_by_Business_User -->
+                  <span class="method-name">Posting_Recipe_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Tutorials_Contents_by_Business_User">
+                  </a> <!-- Posting_Tutorials_Contents_by_Business_User -->
+                  <span class="method-name">Posting_Tutorials_Contents_by_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Posting_Video_Contents_By_Business_User">
+                  </a> <!-- Posting_Video_Contents_By_Business_User -->
+                  <span class="method-name">Posting_Video_Contents_By_Business_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite2-class-passed -->
+        </div> <!-- panel Suite2 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\chandan1\FoodnicheProject\SimpleUser.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Suite1&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;123456789&quot;/&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;userId&quot; value=&quot;james.thomes@sqelabs.com&quot;/&gt;
+    &lt;parameter name=&quot;config&quot; value=&quot;single.conf.json.json&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://foodniche.me/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;foodniche_project.Signin_and_forgot_password&quot;/&gt;
+      &lt;class name=&quot;foodniche_project.Contents_by_individual_user&quot;/&gt;
+      &lt;class name=&quot;foodniche_project.Signupuser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\chandan1\FoodnicheProject\BusinessUser.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Suite2&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;123456789&quot;/&gt;
+    &lt;parameter name=&quot;userId&quot; value=&quot;joan.parker@sqelabs.com&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://foodniche.me/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;foodniche_project.Contents_by_business_user&quot;/&gt;
+      &lt;class name=&quot;foodniche_project.Signup_business_user&quot;/&gt;
+      &lt;class name=&quot;foodniche_project.Groups_by_business&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite2 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SignUpForm')
+data.setCell(0, 2, 'foodniche_project.Signupuser')
+data.setCell(0, 3, 72944);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Posting_Pictures_Contents_by_Individual_User')
+data.setCell(1, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(1, 3, 53507);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Posting_Recipe_by_Individual_User')
+data.setCell(2, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(2, 3, 45342);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Logout')
+data.setCell(3, 2, 'foodniche_project.Signin_and_forgot_password')
+data.setCell(3, 3, 42056);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Posting_Tutorials_by_Individual_User')
+data.setCell(4, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(4, 3, 31372);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Restoring_password')
+data.setCell(5, 2, 'foodniche_project.Signin_and_forgot_password')
+data.setCell(5, 3, 22082);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Facebook_Signin')
+data.setCell(6, 2, 'foodniche_project.Signin_and_forgot_password')
+data.setCell(6, 3, 20873);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Editing_Recipe_by_Individual_User')
+data.setCell(7, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(7, 3, 18960);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Posting_Video_By_Individual_User')
+data.setCell(8, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(8, 3, 17424);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Editing_Video_by_Individual_User')
+data.setCell(9, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(9, 3, 17285);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Editing_Pictures_by_Individual_User')
+data.setCell(10, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(10, 3, 16783);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Editing_Tutorials_by_Individual_User')
+data.setCell(11, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(11, 3, 15119);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Deleting_Tutorials_Contents_by_Individual_User')
+data.setCell(12, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(12, 3, 10305);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Deleting_Recipe_Contents_by_Individual_User')
+data.setCell(13, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(13, 3, 1807);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Deleting_Pictures_Contents_by_Individual_User')
+data.setCell(14, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(14, 3, 1760);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Deleting_Video_Contents_by_Individual_User')
+data.setCell(15, 2, 'foodniche_project.Contents_by_individual_user')
+data.setCell(15, 3, 1326);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite2');
+function tableData_Suite2() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Posting_Picture_by_Business_User')
+data.setCell(0, 2, 'foodniche_project.Groups_by_business')
+data.setCell(0, 3, 114629);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SignUpForm')
+data.setCell(1, 2, 'foodniche_project.Signup_business_user')
+data.setCell(1, 3, 76574);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Posting_Coupons_Contents_by_Business_User')
+data.setCell(2, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(2, 3, 67425);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Posting_Pictures_Contents_by_Business_User')
+data.setCell(3, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(3, 3, 49432);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Posting_Recipe_Contents_by_Business_User')
+data.setCell(4, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(4, 3, 37691);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Posting_Tutorials_Contents_by_Business_User')
+data.setCell(5, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(5, 3, 31248);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Posting_Video_Contents_By_Business_User')
+data.setCell(6, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(6, 3, 16805);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Editing_Pictures_Contents_by_Business_User')
+data.setCell(7, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(7, 3, 16044);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Editing_Video_Contents_by_Business_User')
+data.setCell(8, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(8, 3, 15980);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Editing_Tutorials_Contents_by_Business_User')
+data.setCell(9, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(9, 3, 13995);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Editing_Recipe_Contents_by_Business_User')
+data.setCell(10, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(10, 3, 13533);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Deleting_Recipe_Contents_Contents_by_Business_User')
+data.setCell(11, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(11, 3, 1731);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Deleting_Tutorials_Contents_by_Business_User')
+data.setCell(12, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(12, 3, 1720);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Deleting_Pictures_Contents_by_Business_User')
+data.setCell(13, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(13, 3, 1715);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Deleting_Video_Contents_by_Business_User')
+data.setCell(14, 2, 'foodniche_project.Contents_by_business_user')
+data.setCell(14, 3, 1228);
+window.suiteTableData['Suite2']= { tableData: data, tableDiv: 'times-div-Suite2'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite2">
+              </div> <!-- times-div-Suite2 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpForm</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">*signup link not displayed-----Timed out after 60 seconds waiting for element to be clickable: By.xpath: .//*[@id='navbar']/div/ul/li[1]/button
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SQE', ip: '192.168.56.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Windows\proxy\scoped_dir1452_477}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.75, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=1e808967e404777c58bd0c16fb74b43ed0306395, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1e808967e404777c58bd0c16fb74b43ed0306395</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Posting_Coupons_Contents_by_Business_User</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Coupons Button not displayed-----Timed out after 60 seconds waiting for element to be clickable: By.xpath: .//*[@id='content']/div[2]/div/div[2]/div/div/form/div/div/div[3]/div[5]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SQE', ip: '192.168.56.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Windows\proxy\scoped_dir5024_14406}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.75, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=39350ff6891ac94dee26fc006531da4bcc2d56c0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 39350ff6891ac94dee26fc006531da4bcc2d56c0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Posting_Picture_by_Business_User</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Group assert not displayed-----Timed out after 60 seconds waiting for element to be clickable: By.xpath: html/body/div[2]/div/div/div/div
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SQE', ip: '192.168.56.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Windows\proxy\scoped_dir4092_27397}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.75, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=122fee1fa73497f7380603e85cb7afad584798a6, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 122fee1fa73497f7380603e85cb7afad584798a6</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpForm</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">*signup link not displayed-----Timed out after 60 seconds waiting for element to be clickable: By.xpath: .//*[@id='navbar']/div/ul/li[1]/button
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SQE', ip: '192.168.56.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Windows\proxy\scoped_dir2352_4551}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.75, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=f5b52ced28cc7022b55887d7784c21317448f7cc, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f5b52ced28cc7022b55887d7784c21317448f7cc</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Signin_and_forgot_password</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Logout</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Facebook_Signin</span>
+                <span class="method-start">42057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Restoring_password</span>
+                <span class="method-start">62931 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Contents_by_individual_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Posting_Pictures_Contents_by_Individual_User</span>
+                <span class="method-start">85015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Pictures_by_Individual_User</span>
+                <span class="method-start">138522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Pictures_Contents_by_Individual_User</span>
+                <span class="method-start">155305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Video_By_Individual_User</span>
+                <span class="method-start">157065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Video_by_Individual_User</span>
+                <span class="method-start">174489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Video_Contents_by_Individual_User</span>
+                <span class="method-start">191775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Recipe_by_Individual_User</span>
+                <span class="method-start">193101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Recipe_by_Individual_User</span>
+                <span class="method-start">238444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Recipe_Contents_by_Individual_User</span>
+                <span class="method-start">257404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Tutorials_by_Individual_User</span>
+                <span class="method-start">259211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Tutorials_by_Individual_User</span>
+                <span class="method-start">290583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Tutorials_Contents_by_Individual_User</span>
+                <span class="method-start">305702 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Signupuser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpForm</span>
+                <span class="method-start">316008 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Contents_by_business_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Posting_Pictures_Contents_by_Business_User</span>
+                <span class="method-start">388992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Pictures_Contents_by_Business_User</span>
+                <span class="method-start">438424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Pictures_Contents_by_Business_User</span>
+                <span class="method-start">454468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Video_Contents_By_Business_User</span>
+                <span class="method-start">456183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Video_Contents_by_Business_User</span>
+                <span class="method-start">472989 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Video_Contents_by_Business_User</span>
+                <span class="method-start">488969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Recipe_Contents_by_Business_User</span>
+                <span class="method-start">490197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Recipe_Contents_by_Business_User</span>
+                <span class="method-start">527888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Recipe_Contents_Contents_by_Business_User</span>
+                <span class="method-start">541421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Tutorials_Contents_by_Business_User</span>
+                <span class="method-start">543153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Tutorials_Contents_by_Business_User</span>
+                <span class="method-start">574401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Tutorials_Contents_by_Business_User</span>
+                <span class="method-start">588396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Posting_Coupons_Contents_by_Business_User</span>
+                <span class="method-start">590116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Signup_business_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpForm</span>
+                <span class="method-start">657542 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Groups_by_business</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Posting_Picture_by_Business_User</span>
+                <span class="method-start">734117 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Signin_and_forgot_password</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Logout</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Facebook_Signin</span>
+                <span class="method-start">42057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Restoring_password</span>
+                <span class="method-start">62931 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Contents_by_individual_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Posting_Pictures_Contents_by_Individual_User</span>
+                <span class="method-start">85015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Pictures_by_Individual_User</span>
+                <span class="method-start">138522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Pictures_Contents_by_Individual_User</span>
+                <span class="method-start">155305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Video_By_Individual_User</span>
+                <span class="method-start">157065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Video_by_Individual_User</span>
+                <span class="method-start">174489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Video_Contents_by_Individual_User</span>
+                <span class="method-start">191775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Recipe_by_Individual_User</span>
+                <span class="method-start">193101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Recipe_by_Individual_User</span>
+                <span class="method-start">238444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Recipe_Contents_by_Individual_User</span>
+                <span class="method-start">257404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Tutorials_by_Individual_User</span>
+                <span class="method-start">259211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Tutorials_by_Individual_User</span>
+                <span class="method-start">290583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Tutorials_Contents_by_Individual_User</span>
+                <span class="method-start">305702 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Signupuser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpForm</span>
+                <span class="method-start">316008 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Contents_by_business_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Posting_Pictures_Contents_by_Business_User</span>
+                <span class="method-start">388992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Pictures_Contents_by_Business_User</span>
+                <span class="method-start">438424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Pictures_Contents_by_Business_User</span>
+                <span class="method-start">454468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Video_Contents_By_Business_User</span>
+                <span class="method-start">456183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Video_Contents_by_Business_User</span>
+                <span class="method-start">472989 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Video_Contents_by_Business_User</span>
+                <span class="method-start">488969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Recipe_Contents_by_Business_User</span>
+                <span class="method-start">490197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Recipe_Contents_by_Business_User</span>
+                <span class="method-start">527888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Recipe_Contents_Contents_by_Business_User</span>
+                <span class="method-start">541421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Posting_Tutorials_Contents_by_Business_User</span>
+                <span class="method-start">543153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editing_Tutorials_Contents_by_Business_User</span>
+                <span class="method-start">574401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deleting_Tutorials_Contents_by_Business_User</span>
+                <span class="method-start">588396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Posting_Coupons_Contents_by_Business_User</span>
+                <span class="method-start">590116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Signup_business_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpForm</span>
+                <span class="method-start">657542 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">foodniche_project.Groups_by_business</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Posting_Picture_by_Business_User</span>
+                <span class="method-start">734117 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

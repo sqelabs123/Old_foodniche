@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 850.914 sec <<< FAILURE! - in TestSuite
+SignUpForm(foodniche_project.Signupuser)  Time elapsed: 72.951 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at foodniche_project.Signupuser.SignUpForm(Signupuser.java:57)
+
+Posting_Coupons_Contents_by_Business_User(foodniche_project.Contents_by_business_user)  Time elapsed: 67.425 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at foodniche_project.Contents_by_business_user.Posting_Coupons_Contents_by_Business_User(Contents_by_business_user.java:345)
+
+SignUpForm(foodniche_project.Signup_business_user)  Time elapsed: 76.575 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at foodniche_project.Signup_business_user.SignUpForm(Signup_business_user.java:56)
+
+Posting_Picture_by_Business_User(foodniche_project.Groups_by_business)  Time elapsed: 114.628 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at foodniche_project.Groups_by_business.Posting_Picture_by_Business_User(Groups_by_business.java:123)
+

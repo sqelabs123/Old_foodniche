@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="850.914" tests="31" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\bin"/>
+    <property name="java.vm.version" value="25.40-b25"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\chandan1\FoodnicheProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\chandan1\FoodnicheProject"/>
+    <property name="java.runtime.version" value="1.8.0_40-b26"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shubham\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="classworlds.conf" value="E:\chandan1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4026772202435516930.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_40/bin/server;C:/Program Files/Java/jre1.8.0_40/bin;C:/Program Files/Java/jre1.8.0_40/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\OpenSSH\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files (x86)\Microsoft Office\Office14\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_40\bin;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Users\Shubham\AppData\Roaming\npm;C:\Users\Shubham\AppData\Local\Programs\Git\cmd;E:\Software\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\Shubham"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Shubham"/>
+    <property name="java.class.path" value="/E:/Software/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_40\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_40"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\chandan1\FoodnicheProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Logout" classname="foodniche_project.Signin_and_forgot_password" time="42.055"/>
+  <testcase name="Facebook_Signin" classname="foodniche_project.Signin_and_forgot_password" time="20.868"/>
+  <testcase name="Restoring_password" classname="foodniche_project.Signin_and_forgot_password" time="22.083"/>
+  <testcase name="Posting_Pictures_Contents_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="53.507"/>
+  <testcase name="Editing_Pictures_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="16.782"/>
+  <testcase name="Deleting_Pictures_Contents_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="1.76"/>
+  <testcase name="Posting_Video_By_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="17.424"/>
+  <testcase name="Editing_Video_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="17.285"/>
+  <testcase name="Deleting_Video_Contents_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="1.326"/>
+  <testcase name="Posting_Recipe_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="45.343"/>
+  <testcase name="Editing_Recipe_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="18.959"/>
+  <testcase name="Deleting_Recipe_Contents_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="1.807"/>
+  <testcase name="Posting_Tutorials_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="31.371"/>
+  <testcase name="Editing_Tutorials_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="15.118"/>
+  <testcase name="Deleting_Tutorials_Contents_by_Individual_User" classname="foodniche_project.Contents_by_individual_user" time="10.305"/>
+  <testcase name="SignUpForm" classname="foodniche_project.Signupuser" time="72.951">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at foodniche_project.Signupuser.SignUpForm(Signupuser.java:57)
+</failure>
+    <system-out><![CDATA[---------------------------------------------------------------------------------------------------------------
+@URL Opening.......https://foodniche.me/
+	*Signup link should be displayed
+	*signup link not displayed-----
+]]></system-out>
+  </testcase>
+  <testcase name="Posting_Pictures_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="49.431"/>
+  <testcase name="Editing_Pictures_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="16.044"/>
+  <testcase name="Deleting_Pictures_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="1.715"/>
+  <testcase name="Posting_Video_Contents_By_Business_User" classname="foodniche_project.Contents_by_business_user" time="16.805"/>
+  <testcase name="Editing_Video_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="15.977"/>
+  <testcase name="Deleting_Video_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="1.227"/>
+  <testcase name="Posting_Recipe_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="37.69"/>
+  <testcase name="Editing_Recipe_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="13.533"/>
+  <testcase name="Deleting_Recipe_Contents_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="1.73"/>
+  <testcase name="Posting_Tutorials_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="31.248"/>
+  <testcase name="Editing_Tutorials_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="13.995"/>
+  <testcase name="Deleting_Tutorials_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="1.72"/>
+  <testcase name="Posting_Coupons_Contents_by_Business_User" classname="foodniche_project.Contents_by_business_user" time="67.425">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at foodniche_project.Contents_by_business_user.Posting_Coupons_Contents_by_Business_User(Contents_by_business_user.java:345)
+</failure>
+    <system-out><![CDATA[	*User Content Status should be displayed
+	*User Content Status should be displayed
+	*Coupons Button should be displayed
+	Coupons Button not displayed-----
+]]></system-out>
+  </testcase>
+  <testcase name="SignUpForm" classname="foodniche_project.Signup_business_user" time="76.575">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at foodniche_project.Signup_business_user.SignUpForm(Signup_business_user.java:56)
+</failure>
+    <system-out><![CDATA[---------------------------------------------------------------------------------------------------------------
+@URL Opening.......https://foodniche.me/
+	*Signup link should be displayed
+	*signup link not displayed-----
+]]></system-out>
+  </testcase>
+  <testcase name="Posting_Picture_by_Business_User" classname="foodniche_project.Groups_by_business" time="114.628">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at foodniche_project.Groups_by_business.Posting_Picture_by_Business_User(Groups_by_business.java:123)
+</failure>
+    <system-out><![CDATA[---------------------------------------------------------------------------------------------------------------
+@URL Opening.......https://foodniche.me/
+	*Signin should be displayed
+	*UserName Text field should be displayed
+	*Password Text field should be displayed
+	*Login button should be displayed
+	*Logout button should be displayed
+	# Validation == PASS :: 'LOG OUT' Text is present
+	*My Group menu should be displayed
+	*Group assert1 should be displayed
+	# Validation == PASS :: 'Back to Home' Text is present
+	*Create group button should be displayed
+	*Group assert2 should be displayed
+	# Validation == PASS :: 'Create Groups' Text is present
+	*Group name should be displayed
+	*Group Description should be displayed
+	*Group assert should be displayed
+	Group assert not displayed-----
+]]></system-out>
+  </testcase>
+</testsuite>

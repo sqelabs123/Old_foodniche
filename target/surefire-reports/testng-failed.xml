@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite2]">
+  <parameter name="password" value="123456789"/>
+  <parameter name="userId" value="joan.parker@sqelabs.com"/>
+  <parameter name="url" value="https://foodniche.me/"/>
+  <test name="Test(failed)">
+    <parameter name="password" value="123456789"/>
+    <parameter name="userId" value="joan.parker@sqelabs.com"/>
+    <parameter name="url" value="https://foodniche.me/"/>
+    <classes>
+      <class name="foodniche_project.Contents_by_business_user">
+        <methods>
+          <include name="Posting_Coupons_Contents_by_Business_User"/>
+        </methods>
+      </class> <!-- foodniche_project.Contents_by_business_user -->
+      <class name="foodniche_project.Groups_by_business">
+        <methods>
+          <include name="Posting_Picture_by_Business_User"/>
+        </methods>
+      </class> <!-- foodniche_project.Groups_by_business -->
+      <class name="foodniche_project.Signup_business_user">
+        <methods>
+          <include name="SignUpForm"/>
+        </methods>
+      </class> <!-- foodniche_project.Signup_business_user -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite2] -->
