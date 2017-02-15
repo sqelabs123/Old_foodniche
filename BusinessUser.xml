@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite2">
+  <test name="Test">
+   <parameter name="url" value="https://foodniche.me/"></parameter>
+	<parameter name="userId" value="asian.recipes@foodniche.me"></parameter>
+	<parameter name="password" value="123456789"></parameter>
+  	
+  	<parameter name="USERNAME" value="vikram158"></parameter>
+  	<parameter name="AUTOMATE_KEY" value="VHUY3Ttk2yQ39MKwkyQF"></parameter>
+ 
+
+    <classes>
+    
+      <class name="foodniche_project.Signup_business_user"/>
+    
+<!--  <class name="foodniche_project.Contents_by_business_user"/>   
+  	  <class name="foodniche_project.Groups_by_business"/>					
+ -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
