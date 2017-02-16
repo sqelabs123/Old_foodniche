@@ -16,8 +16,8 @@
     <classes>
     
    
-	   		<class name="foodniche_project.Signin_and_forgot_password"/>    
-		 	<class name="foodniche_project.Contents_by_individual_user"/>
+	<!--   		<class name="foodniche_project.Signin_and_forgot_password"/>    -->	
+	    	<class name="foodniche_project.Contents_by_individual_user"/>
     		<class name="foodniche_project.Signupuser"/>
     	
     	
